@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Reset básico */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f5f5f5;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px; /* tamaño máximo en PC */
+        height: auto;
+        display: block;
+    }
+
+    /* Ajuste para móviles */
+    @media (max-width: 480px) {
+        img {
+            max-width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <img src="f1.png" alt="">
+</body>
+</html>
